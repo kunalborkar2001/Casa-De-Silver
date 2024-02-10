@@ -32,8 +32,8 @@
 }
 
 .welcomeRight  {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -42,4 +42,9 @@
 .welcomeRight img {
     height: 100%;
     width: 100%;
+}
+
+.welcomeRight img:hover {
+    transform: scale(1.1);
+    transition: 1s ease all;
 }

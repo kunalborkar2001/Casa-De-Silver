@@ -1,7 +1,8 @@
 import Navbar from './Components/Navbar/Navbar';
 import './App.css';
 import Hero from './Sections/Hero/Hero';
-import Welcome from './Sections/Hero/Welcome/Welcome';
+import Welcome from './Sections/Welcome/Welcome';
+import Menu from './Sections/Menu/Menu';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Welcome />
+      <Menu />
     </div>
   );
 }
