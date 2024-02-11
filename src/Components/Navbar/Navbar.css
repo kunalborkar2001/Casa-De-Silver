@@ -92,6 +92,13 @@
     background-size: cover;
 }
 
+.css-wf16b5 {
+    width: 30vw;
+    /* background: #000 !important; */
+    background-image: url('../../Assets/drawerImg.jpeg');
+    background-size: cover;
+}
+
 
 .css-mzh9k-MuiButtonGroup-root {
     width: 100%;
