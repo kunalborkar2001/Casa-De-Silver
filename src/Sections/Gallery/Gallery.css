@@ -1,0 +1,13 @@
+.Gallery {
+    min-height: 50vh;
+    background-image: url("../../Assets/galleryBg.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    text-align: center;
+}
+
+.css-uym98a-MuiImageList-root {
+    width: 90vw !important;
+    
+}
