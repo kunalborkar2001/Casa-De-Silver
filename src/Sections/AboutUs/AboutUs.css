@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik:wght@900&display=swap');
 
+
 .AboutUs {
     height: 50vh;
     display: flex;
@@ -37,12 +38,16 @@
 }
 
 .aboutPara p {
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 
 @media (max-width: 857px) {
     .AboutSub {
         flex-direction: column;
+    }
+
+    .aboutPara p {
+        font-size: 3vw;
     }
 }
