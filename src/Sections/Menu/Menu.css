@@ -8,6 +8,8 @@
     align-items: center;
     flex-direction: column;
     padding: 12px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     margin-top: 12px;
     color: white;
     /* border: solid; */
