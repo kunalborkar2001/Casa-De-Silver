@@ -10,9 +10,13 @@
 * {
   margin: 0;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-body {
-  
+html {
+  scroll-behavior: smooth;
 }
 
 li {
@@ -26,6 +30,7 @@ li {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  
 }
 /*
   5. Improve media defaults
@@ -52,3 +57,4 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+

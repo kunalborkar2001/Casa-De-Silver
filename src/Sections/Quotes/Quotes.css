@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+.Quotes {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+
+
+.Quotes h3 {
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 3vw;
+
+}
+
+.Quotes .quoteSign  {
+    font-size: 4rem;
+}
+
+
+

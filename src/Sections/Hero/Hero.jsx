@@ -7,7 +7,7 @@ const Hero = () => {
             <div className='Hero'>
                 <h1 className='heading'>Welocome to</h1>
                 <h1 className='subHeading'>Casa <span style={{color : "red"}}>De</span>  Silver</h1>
-                <Button className='menuButton' variant="light" size="lg">Look Menu</Button>
+                <Button className='menuButton' variant="light" size="lg"><a href="#Menu">Look Menu</a></Button>
             </div>
         </>
     )

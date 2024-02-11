@@ -39,9 +39,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <ul>
-                    <li>Home</li>
-                    <li>Menu</li>
-                    <li>Gallary</li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
                     <li>About Us</li>
                     <li>Location</li>
                     <li>Contact Us</li>

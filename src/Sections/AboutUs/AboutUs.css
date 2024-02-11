@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik:wght@900&display=swap');
+
+.AboutUs {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url('https://mobirise.com/extensions/bistrom5/burger_house/assets/images/mbr-1920x1160.jpg');
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+}
+
+.AboutUs .heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+}
+
+.AboutUs .AboutSub {
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    bottom: -30%;
+    background: #ebf2e9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.AboutUs .aboutPara {
+    text-align: center;
+}
+
+.aboutPara p {
+    font-size: 2rem;
+}
+
+
+@media (max-width: 857px) {
+    .AboutSub {
+        flex-direction: column;
+    }
+}

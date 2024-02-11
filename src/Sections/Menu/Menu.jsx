@@ -4,7 +4,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 
 const Menu = () => {
   return (
-    <div className="Menu">
+    <div className="Menu" id="Menu">
       <div className="menuHeading">
         <h1>Menu</h1>
       </div>
