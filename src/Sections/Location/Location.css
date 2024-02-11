@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik:wght@900&display=swap');
+
+.Location {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../Assets/locationBg.jpeg');
+    background-position: center;
+    object-fit: cover;
+    margin-top: 10vh;
+}
+
+.Location h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+    color: white;
+}
+
+.Location .map {
+    width: 70vw;
+}

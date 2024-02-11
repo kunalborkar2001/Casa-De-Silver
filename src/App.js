@@ -6,6 +6,7 @@ import Menu from './Sections/Menu/Menu';
 import Gallery from './Sections/Gallery/Gallery';
 import AboutUs from './Sections/AboutUs/AboutUs';
 import Quotes from './Sections/Quotes/Quotes';
+import Location from './Sections/Location/Location';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Gallery />
       <AboutUs />
       <Quotes />
+      <Location />
     </div>
   );
 }
