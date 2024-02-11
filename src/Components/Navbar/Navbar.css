@@ -1,9 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.bar {
+    /* position: absolute; */
+    color: white;
+    /* top: 5vh; */
+    display: none;
+    /* border: solid yellow; */
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.offCanvas {
+    /* background: #000; */
+    text-align: center;
+}
+
+.offCanvasLogo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.offCanvasLogo img {
+    height: 80px;
+    width: 80%;
+}
+
+
 .Navbar {
     height: 10vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 3vh;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -11,15 +46,53 @@
     font-size: 1.2rem;
 }
 
+.navLogo  {
+    margin-top: 12px;
+    height: 100%;
+    margin-bottom: 3vh;
+}
+
+.navLogo img {
+    height: 100px;
+    width: 150px;
+    padding: 12px;
+}
+
 .Navbar ul {
     display: flex;
-    gap: 2vw;
+    gap: 5vw;
 }
 
 .Navbar ul li {
     cursor: pointer;
+    font-size: 1.3rem;
+    font-family: 'Lobster', sans-serif;
 }
 
 .Navbar ul li:hover {
      color: red;
+}
+
+
+@media (max-width: 768px) { 
+    .Navbar ul {
+        display: none;
+    }
+    .bar {
+        display: block;
+    }
+}
+
+
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    width: 30vw;
+    /* background: #000 !important; */
+    background-image: url('../../Assets/drawerImg.jpeg');
+    background-size: cover;
+}
+
+
+.css-mzh9k-MuiButtonGroup-root {
+    width: 100%;
 }

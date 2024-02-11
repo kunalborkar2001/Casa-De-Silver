@@ -1,8 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik:wght@900&display=swap');
+
 .Menu {
     min-height: 50vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    margin-top: 12px;
+    color: white;
+    /* border: solid; */
+    background-image: url('../../Assets/restaurant.jpg..webp');
+}
 
+.Menu .menuImg {
+    height: 300px;
+    /* border: solid ; */
+    border-radius: 25px;
+}
+
+.menuHeading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+.gridMenu h3{
+    /* border: solid; */
+    position: relative;
+    left: 14%;
+    width: fit-content;
+    font-size: 2rem;
+    top: 17px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.gridMenu .food {
+    left: 27%;
+}
+
+.gridMenu .dessert {
+    left: 20%;
+}
+
+.gridMenu .drinks {
+    left: 24%;
+}
+
+.gridMenu:hover img {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.gridMenu:hover h3 {
+    color: red;
 }
