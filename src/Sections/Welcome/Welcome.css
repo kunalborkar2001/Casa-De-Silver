@@ -31,7 +31,7 @@
     color: gray;
 }
 
-.welcomeRight  {
+.welcomeRight {
     height: 350px;
     width: 350px;
     border-radius: 12px;
@@ -42,9 +42,32 @@
 .welcomeRight img {
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
 
 .welcomeRight img:hover {
     transform: scale(1.1);
     transition: 1s ease all;
+}
+
+@media (max-width: 853px) {
+    .Welcome {
+        flex-direction: column;
+        min-height: 60vh;
+    }
+    .welcomeLeft h1  {
+        font-size: 3rem;
+    }
+
+    .welcomeLeft img {
+        height: 150px;
+        width: 340px;
+    } 
+
+    .welcomeRight {
+        display: none;
+    }
+    .welcomeLeft p {
+        font-size: 1rem;
+    }
 }

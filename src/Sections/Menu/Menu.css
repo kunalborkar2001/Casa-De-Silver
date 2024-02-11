@@ -60,3 +60,9 @@
 .gridMenu:hover h3 {
     color: red;
 }
+
+@media (max-width: 853px) {
+    .Menu {
+        flex-direction: column;
+    }
+}
