@@ -5,7 +5,7 @@
     min-height: 50vh;
     background-image: url("../../Assets/galleryBg.jpeg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     display: flex;
     text-align: center;
     color: black;
@@ -31,5 +31,8 @@
 }
 
 .css-heg063-MuiTabs-flexContainer {
+    justify-content: center;
+}
+.css-k008qs {
     justify-content: center;
 }
