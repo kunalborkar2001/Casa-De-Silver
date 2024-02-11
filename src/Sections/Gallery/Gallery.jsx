@@ -4,6 +4,7 @@ import './Gallery.css'
 const Gallery = () => {
   return (
     <div className='Gallery'>
+        <h1>Gallery</h1>
         <BasicTabs />
     </div>
   )

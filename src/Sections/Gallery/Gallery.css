@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik:wght@900&display=swap');
+
+
 .Gallery {
     min-height: 50vh;
     background-image: url("../../Assets/galleryBg.jpeg");
@@ -5,13 +8,28 @@
     background-position: bottom;
     display: flex;
     text-align: center;
+    color: black;
+    flex-direction: column;
+}
+
+.Gallery h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
 }
 
 .css-uym98a-MuiImageList-root {
-    width: 90vw !important;
-    
+    width: 60vw !important;
+    margin: auto;
 }
 
 .css-xts502 {
     width: 90vw !important;
+    margin: auto;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+    justify-content: center;
 }

@@ -40,15 +40,15 @@ export default function BasicTabs() {
     };
 
     return (
-        <Box sx={{ width: '200px' }}  >
+        <Box sx={{ textAlign : "center" }}  >
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-                    <Tab label="Item One" />
-                    <Tab label="Item Two" />
+                    <Tab label="Ambience" />
+                    <Tab label="Food" />
                 </Tabs>
             </Box>
             <CustomTabPanel value={value} index={0} >
-                <QuiltedImageList />
+                <QuiltedImageList/>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>
                 Item Two
