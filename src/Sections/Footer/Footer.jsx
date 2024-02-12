@@ -46,7 +46,7 @@ const Footer = () => {
                     <div class="legal">
                         <p>Terms & Conditions </p>
                     </div>
-                    <div class="copyright">2024 Copyright &copy; Kunal Borkar</div>
+                    <div class="copyright"><p>2024 Copyright &copy; Kunal Borkar</p></div>
                 </div>
             </footer>
         </div>
