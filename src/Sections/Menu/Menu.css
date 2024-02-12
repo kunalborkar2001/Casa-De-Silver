@@ -16,6 +16,15 @@
     background-image: url('../../Assets/restaurant.jpg..webp');
 }
 
+.Menu h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+}
+
+
 .Menu .menuImg {
     height: 300px;
     /* border: solid ; */
