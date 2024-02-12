@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik:wght@900&display=swap');
-
 .Location {
     display: flex;
     justify-content: center;
@@ -22,7 +20,29 @@
     color: white;
 }
 
-.Location .map {
-    width: 70vw;
-    border-radius: 62px;
+.Location .iFrames {
+    overflow: hidden;
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    height: 400px;
+}
+
+.Location .map,
+.Location .threeSixtyImg {
+    border-radius: 12px;
+    width: 40vw;
+}
+
+@media (max-width: 766px) {
+    .Location .iFrames {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Location .map,
+    .Location .threeSixtyImg {
+        width: 100%;
+        margin-bottom: 20px; /* Add margin between iframes */
+    }
 }
