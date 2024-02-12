@@ -43,6 +43,15 @@
     font-size: 2rem !important;
 }
 
+.css-1q2h7u5.Mui-selected {
+    color: red !important;
+    font-size: 2rem !important;
+}
+
 .css-1aquho2-MuiTabs-indicator {
+    background-color: red !important;
+}
+
+.css-ttwr4n {
     background-color: red !important;
 }
