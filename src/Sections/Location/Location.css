@@ -3,13 +3,14 @@
 .Location {
     display: flex;
     justify-content: center;
-    height: 50vh;
+    min-height: 50vh;
     flex-direction: column;
     align-items: center;
     background-image: url('../../Assets/locationBg.jpeg');
     background-position: center;
     object-fit: cover;
     margin-top: 10vh;
+    padding: 12px;
 }
 
 .Location h1 {
@@ -23,4 +24,5 @@
 
 .Location .map {
     width: 70vw;
+    border-radius: 62px;
 }
