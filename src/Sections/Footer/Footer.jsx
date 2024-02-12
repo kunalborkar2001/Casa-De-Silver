@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
                 <div class="info">
                     <div class="legal">
-                        <p>Terms & ConditionsPrivacy Policy</p>
+                        <p>Terms & Conditions Privacy Policy</p>
                     </div>
                     <div class="copyright">2024 Copyright &copy; Kunal Borkar</div>
                 </div>
