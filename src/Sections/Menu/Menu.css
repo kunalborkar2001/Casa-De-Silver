@@ -70,9 +70,8 @@
     color: red;
 }
 
-@media (max-width: 597px) {
-    .gridMenu {
-        position: relative;
-        left: 10%;
+@media (max-width: 567px) {
+    .Menu .menuImg {
+        height : 248px
     }
 }
