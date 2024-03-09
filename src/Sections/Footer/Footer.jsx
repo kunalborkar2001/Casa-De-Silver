@@ -15,7 +15,7 @@ const Footer = () => {
                         <ul>
                             <li><h3>Casa De Silver</h3></li>
                             <li><h5>Average Cost</h5></li>
-                            <li><p>INR 1200 for two prople (approx)</p></li>
+                            <li><p>INR 1200 for two people (approx)</p></li>
 
                         </ul>
 
